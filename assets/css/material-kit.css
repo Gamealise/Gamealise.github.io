@@ -239,7 +239,7 @@ a .material-icons, a:hover .material-icons, a:focus .material-icons {
 .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle, .open >
 .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle:focus, .open >
 .navbar .navbar-nav > li > a.btn.btn-primary.dropdown-toggle:hover {
-  background-color: #9c27b0;
+  background-color: #FF9052;
   color: #FFFFFF;
 }
 .btn.btn-primary:focus, .btn.btn-primary:active, .btn.btn-primary:hover,
@@ -503,7 +503,7 @@ a .material-icons, a:hover .material-icons, a:focus .material-icons {
 .navbar .navbar-nav > li > a.btn.btn-danger.dropdown-toggle, .open >
 .navbar .navbar-nav > li > a.btn.btn-danger.dropdown-toggle:focus, .open >
 .navbar .navbar-nav > li > a.btn.btn-danger.dropdown-toggle:hover {
-  background-color: #f44336;
+  background-color: #FF9052;
   color: #FFFFFF;
 }
 .btn.btn-danger:focus, .btn.btn-danger:active, .btn.btn-danger:hover,
@@ -3127,7 +3127,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 
 .section {
-  padding: 70px 0;
+  padding: 50px 0;
 }
 
 .section-navbars {
@@ -3570,6 +3570,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
 h2.title {
   margin-bottom: 30px;
+  font-weight: bold;
 }
 
 .description {
@@ -3607,20 +3608,22 @@ h2.title {
 }
 
 .section-3-magic {
-    padding-bottom: 30px;
-    padding-top: 100px;
+    padding-bottom: 90px;
+    padding-top: 45px;
 }
-
+ 
 /*.features {
   padding: 80px 0 0;
 }*/
 
 h1.title-2 {
     font-weight: bold;
+    color:White;
 }
 
 h3.text-2 {
     font-weight: 400;
+    color:white;
 }
 
 .section-2-text {
