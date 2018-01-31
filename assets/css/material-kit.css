@@ -43,7 +43,7 @@ body.inverse .card .form-control {
 body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4 {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-weight: 300;
-  line-height: 1.5em;
+  line-height: 1.7em;
 }
 
 a, a:hover, a:focus {
@@ -2588,7 +2588,7 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: 2.6em;
-  font-weight: bold;
+  font-weight: 600em;
 }
 
 h3, .h3 {
@@ -2599,7 +2599,7 @@ h3, .h3 {
 
 h4, .h4 {
   font-size: 1.3em;
-  line-height: 1.4em;
+  line-height: 1.7em;
 }
 
 h5, .h5 {
@@ -2636,7 +2636,7 @@ h6, .h6 {
 .footer-big h4 a,
 .media .media-heading,
 .media .media-heading a {
-  color: #3C4858;
+  color: #343F4B;
   text-decoration: none;
 }
 
@@ -2647,7 +2647,7 @@ h2.title {
 .description,
 .card-description,
 .footer-big p {
-  color: #999999;
+  color: #3C4858;
 }
 
 .text-warning {
@@ -3570,11 +3570,12 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
 h2.title {
   margin-bottom: 30px;
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 2.6em;
 }
 
 .description {
-  color: #999999;
+  color: #3C4858;
 }
 
 .header-filter {
@@ -3602,9 +3603,13 @@ h2.title {
   width: 100%;
 }
 
+.section-0 {
+    margin-bottom: -45px;
+    }
+
 .section-2-free {
-    padding-bottom: 100px;
-    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .section-3-magic {
@@ -3617,13 +3622,17 @@ h2.title {
 }*/
 
 h1.title-2 {
-    font-weight: bold;
-    color:White;
+    font-weight: 600;
+    font-size: 2.6em;
+    color:#3C4858;
 }
 
 h3.text-2 {
-    font-weight: 400;
-    color:white;
+    font-weight: 300;
+    font-size: 1.5em;
+    line-height: 1.4em;
+    margin: 20px 0 10px;
+    color: white;
 }
 
 .section-2-text {
@@ -3659,7 +3668,10 @@ h3.text-2 {
   }
 
   h1.title {
-    color: black;
+    color: #343F4B;
+    font-size: 2.6em;
+    font-weight: 600;
+  }
 }
 
   h4.text {
@@ -3669,6 +3681,12 @@ h3.text-2 {
  h2.title-1 {
     color: white;
 }
+
+h3.title-1 {
+    color: white;
+    font-weight: 500;
+}
+
 
 
 
@@ -3739,6 +3757,8 @@ h3.text-2 {
 }
 .landing-page .header .title {
   color: #FFFFFF;
+  font-size: 2.6em;
+  font-weight: 600;
 }
 .landing-page .wrapper {
   background: #13CEBF;
