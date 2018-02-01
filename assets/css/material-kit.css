@@ -3882,7 +3882,11 @@ p#thankyou {
 
     img#thankyou {
     max-width: 100%;
-    MAX-HEIGHT: 100%;
+    max-height: : 100%;
 }
+
+form#gform {
+    padding-left: 10px;
+    padding-right: 10px;
 
 /*# sourceMappingURL=material-kit.css.map */
