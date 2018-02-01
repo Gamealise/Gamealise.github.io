@@ -3829,7 +3829,6 @@ h3.title-1 {
   }
 
   .navbar.navbar-transparent {
-    background-color: rgba(0, 0, 0, 0.4);
     padding-top: 10px;
     border-radius: 0;
   }
@@ -3854,6 +3853,10 @@ img {
     border-radius: 6px;
     box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
     margin-top: 10px;
+    background: #FFFFFF;
+    position: relative;
+    z-index: 3;
+
   }
 
 h1#thankyou {
@@ -3863,5 +3866,10 @@ h1#thankyou {
 p#thankyou {
     color: #3C4858;
 }
+
+.main {
+    background: #FFFFFF;
+    position: relative;
+    z-index: 3;
 
 /*# sourceMappingURL=material-kit.css.map */
