@@ -2598,8 +2598,9 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-size: 1.3em;
-  line-height: 1.7em;
+    font-size: 1.4em;
+    line-height: 1.7em;
+    font-weight: 450;
 }
 
 h5, .h5 {
@@ -3867,9 +3868,8 @@ h1#thankyou {
 
 p#thankyou {
     color: #3C4858;
-    font-size: 1.4em;
-  line-height: 1.1em;
-  font
+    font-size: 1.3em;
+    line-height: 1.8em;
 }
 
 .main {
