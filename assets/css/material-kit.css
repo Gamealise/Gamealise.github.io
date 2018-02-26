@@ -3889,10 +3889,14 @@ h2.text-center.title {
 h4.text-center.description {
     line-height: 1.3;
 }
-    img#thankyou {
+
+img#thankyou {
     max-width:  40%;
     max-height: 40%;
 }
+
+
+
 
 /*form#gform {
     padding-left: 10px;
